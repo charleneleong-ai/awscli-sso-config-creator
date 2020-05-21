@@ -1,0 +1,8 @@
+# https://docs.amazonaws.cn/en_us/cli/latest/userguide/cli-configure-sso.html
+[profile primary]
+sso_start_url = https://portal.awsapps.com/start/#/
+sso_region = us-east-1
+sso_account_id = 1234567
+sso_role_name = AdministratorAccess
+region = ap-southeast-2
+output = json
